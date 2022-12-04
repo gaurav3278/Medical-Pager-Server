@@ -3,7 +3,7 @@ const cors = require('cors') //for cross origin requests
 
 
 const authRoutes = require('./routes/auth.js');
-const e = require('express');
+const express = require('express');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
