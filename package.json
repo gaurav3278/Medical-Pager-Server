@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "getstream": "^7.4.0",
+    "moment": "^2.29.2",
+    "netlify-lambda": "^2.0.15",
+    "nodemailer": "^6.7.3",
+    "nodemon": "^2.0.15",
+    "serverless-http": "^2.7.0",
+    "stream-chat": "^5.0.1",
+    "twilio": "^3.72.0"
+  },
+  "engines": {
+    "node": "14.16.0"
+  }
+}
